@@ -1,0 +1,145 @@
+.header__brouser{
+    background-image: url(../images/browser.png);
+    height: 40px;
+    width: 1440px;
+    max-width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 1440px;
+    max-width: 100%;
+}
+
+.header__logo{
+    padding: 50px 0px 0px 76px;
+}
+
+.header__button{
+    padding: 50px 76px 0px 0px;
+}
+
+.button{
+    background-color: #5222D0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2em;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.button-cart{
+    font-size: 13px;
+    width: 115px;
+    height: 38px;
+}
+
+.main{
+    width: 1440px;
+    max-width: 100%;
+}
+
+.main__container{
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+    width: 1265px;
+    height: 1050px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.main__articles{
+    display: grid;
+    grid-template-columns: repeat(3, 365px);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 85px;
+    row-gap: 50px;
+    margin-top: 50px;
+    height: 740px;
+    margin-bottom: 15px;
+}
+
+.article-item__figure{
+    margin: 0;
+}
+
+.article-item{
+    max-width: 365px;
+    padding: 10px;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.article-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.news-item{
+    background-color: #EC615B;
+}
+
+.button-email {
+    width: 145px;
+    height: 38px;
+}
+
+.news-item{
+    color: white;
+    padding: 10px;
+}
+
+.news-item__form {
+    border: none;
+    height: 50px;
+    width: 323px;
+    margin: 15px 0;
+}
+
+.navbar{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.navbar__link{
+    text-decoration: none;
+}
+
+.navbar__link_disable{
+    color: black;
+}

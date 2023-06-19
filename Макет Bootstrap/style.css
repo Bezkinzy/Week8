@@ -1,0 +1,44 @@
+
+body {
+    padding: 1.5em;
+}
+.header {
+    margin-bottom: 1.5em;
+}
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    height: 4em;
+    border-radius: 1em 1em 0 0;
+    padding: 0 7em 0 7em;
+    padding: 0px 100px 0px 100px;
+}
+
+.active {
+    color: #fff;
+}
+
+.active:hover {
+    color: #fff;
+}
+
+main {
+    margin: 0 5em 0 5em;
+}
+
+.card-title {
+    font-size: 1.5em;
+}
+
+.footer {
+    height: 5em;
+    margin-top: 1.5em;
+    color: #fff;
+    border-radius: 0 0 1em 1em;
+}
+
+.container {
+    padding-top: 2em;
+}
